@@ -4,14 +4,15 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org
     '@nuxt/content',
     // https://github.com/Tahul/pinceau
-    'pinceau/nuxt'
+    'pinceau/nuxt',
   ],
 
   content: {
-    documentDriven: true
+    // https://content.nuxtjs.org/api/configuration
+    documentDriven: true,
   },
 
   pinceau: {
-    configFileName: 'tokens.config'
-  }
+    configFileName: 'tokens.config',
+  },
 })
