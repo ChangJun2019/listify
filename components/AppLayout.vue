@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div>
-    <main><slot /></main>
+  <div class="w-prose min-h-screen py-14 px-8 m-auto">
+    <slot />
   </div>
 </template>
 
