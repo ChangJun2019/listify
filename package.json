@@ -2,7 +2,6 @@
   "name": "listify",
   "type": "module",
   "version": "0.0.1",
-  "private": true,
   "packageManager": "pnpm@7.26.1",
   "description": "Generate your list of books, games, movies, etc.",
   "author": {
