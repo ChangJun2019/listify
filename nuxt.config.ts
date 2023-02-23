@@ -19,6 +19,14 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
 
+  app: {
+    head: {
+      link: [
+        { rel: 'stylesheet', href: 'https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css' },
+      ],
+    },
+  },
+
   css: [
     resolve('./assets/style/main.css'),
   ],

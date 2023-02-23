@@ -1,0 +1,11 @@
+frontmatter:
+  title: 2023 我玩的游戏
+  icon: ion:game-controller-outline
+  description: 2023 我玩的游戏
+listify:
+  - name: 《塞尔达传：王国之泪》
+    platform: 任天堂 Switch
+    link: https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/
+  - name: 《战神：诸神黄昏》
+    platform: 索尼 PS5
+    link: https://www.playstation.com/zh-hans-hk/games/god-of-war-ragnarok/

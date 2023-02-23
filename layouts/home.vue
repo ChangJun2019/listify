@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <div class="default-layout">
+  <div class="home-layout">
     <slot />
+    <AppLists />
   </div>
 </template>

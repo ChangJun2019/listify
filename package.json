@@ -1,7 +1,26 @@
 {
-  "name": "my-nuxt-theme",
+  "name": "listify",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.26.1",
+  "description": "Generate your list of books, games, movies, etc.",
+  "author": {
+    "name": "Chang Jun",
+    "url": "https://52chinaweb.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ChangJun2019/listify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChangJun2019/listify.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-content",
+    "minimalist",
+    "blog"
+  ],
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi prepare & nuxi dev .playground",

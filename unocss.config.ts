@@ -25,8 +25,8 @@ export default {
 
   theme: {
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ['LXGW WenKai Screen R', 'Graphik', 'sans-serif'],
+      serif: ['LXGW WenKai Screen R', 'Merriweather', 'serif'],
     },
 
     colors: {

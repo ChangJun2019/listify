@@ -7,9 +7,7 @@ const isCustomRender = computed(() => {
 
 <template>
   <div>
-    <div v-if="isCustomRender" class="">
-      自定义渲染 {{ page.listify.frontmatter.title }}
-    </div>
+    <ListContentRenderer v-if="isCustomRender" />
     <ContentRendererMarkdown v-else :value="page" />
   </div>
 </template>

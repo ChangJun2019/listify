@@ -1,7 +1,8 @@
 ---
-title: Home
+title: listify
+layout: home
 ---
 
-::hello-world
-Hello World 👋
-::
+你好，这里是我的一些集合。
+
+
