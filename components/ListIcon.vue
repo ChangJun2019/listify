@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const lists = await queryContent('').where({
   _extension: { $in: ['json', 'yaml'] },
-}).only(['frontmatter', '_path', '_id']).find()
+}).only(['frontmatter', '_path', '_id']).limit(4).find()
 </script>
 
 <template>

@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const { page } = useContent()
+const { frontmatter } = unref(page)
 useHead({
-  title: page.frontmatter.title,
+  title: frontmatter.title,
   meta: [
-    { name: 'description', content: page.frontmatter.description || '' },
+    { name: 'description', content: frontmatter.description || '' },
   ],
 })
 </script>
