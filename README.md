@@ -28,9 +28,9 @@ pnpm i listify-theme@latest
 
 ```ts
 export default defineNuxtConfig({
-	extends: [
-		'listify-theme'
-	]
+  extends: [
+    'listify-theme'
+  ]
 })
 ```
 
