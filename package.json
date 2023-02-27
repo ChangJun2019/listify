@@ -22,10 +22,10 @@
   ],
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxi prepare & nuxi dev .playground",
-    "build": "nuxi build .playground",
-    "generate": "nuxi generate .playground",
-    "preview": "nuxi preview .playground",
+    "dev": "nuxi prepare & nuxi dev playground",
+    "build": "nuxi build playground",
+    "generate": "nuxi generate playground",
+    "preview": "nuxi preview playground",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
