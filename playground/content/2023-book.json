@@ -1,0 +1,25 @@
+{
+  "frontmatter": {
+    "title": "2023 我读的书",
+    "icon": "mi:book",
+    "description": "2023 我读的书"
+  },
+  "listify": [
+      {
+        "name": "《始于极限》",
+        "link": "https://book.douban.com/subject/35966120/"
+      },
+      {
+        "name": "《当我们不再理解世界》",
+        "link": "https://book.douban.com/subject/36073906/"
+      },
+      {
+        "name": "《可能性的艺术》",
+        "link": "https://book.douban.com/subject/35819419/"
+      },
+      {
+        "name": "《显微镜下的大明》",
+        "link": "https://book.douban.com/subject/30414743/"
+      }
+  ]
+}
