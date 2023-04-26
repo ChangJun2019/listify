@@ -1,16 +1,25 @@
-import presetWind from '@unocss/preset-wind'
-import transformerDirectives from '@unocss/transformer-directives'
+import {
+  defineConfig,
+  presetAttributify,
+  presetIcons,
+  presetTypography,
+  presetUno,
+  transformerDirectives,
+  transformerVariantGroup,
+} from 'unocss'
 
-export default {
-  // presets
-  uno: true, // enabled `@unocss/preset-uno`
-  icons: true, // enabled `@unocss/preset-icons`
-  attributify: true, // enabled `@unocss/preset-attributify`,
+export default defineConfig({
   transformers: [
     transformerDirectives(),
+    transformerVariantGroup(),
   ],
   presets: [
-    presetWind(),
+    presetUno({}),
+    presetAttributify(),
+    presetIcons({
+      scale: 1.2,
+    }),
+    presetTypography(),
   ],
 
   // https://github.com/unocss/unocss#shortcuts
@@ -25,8 +34,8 @@ export default {
 
   theme: {
     fontFamily: {
-      sans: ['LXGW WenKai Screen R', 'Graphik', 'sans-serif'],
-      serif: ['LXGW WenKai Screen R', 'Merriweather', 'serif'],
+      sans: 'LXGW WenKai Screen R',
+      serif: 'LXGW WenKai Screen R',
     },
 
     colors: {
@@ -44,8 +53,8 @@ export default {
       },
     },
 
-    width: {
+    maxWidth: {
       prose: '80ch',
     },
   },
-}
+})
